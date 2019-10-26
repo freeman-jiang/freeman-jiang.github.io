@@ -48,6 +48,11 @@ font-family: 'Open Sans', sans-serif;
 
 }
 
+.calendly-btn{
+margin-top:.5em;
+}
+
+
 /*-----------------------------------------------------------
 * Template Name    : Kerri | Responsive Bootstrap 4 Personal Template
 * Author           : SRBThemes
@@ -280,6 +285,7 @@ button:focus {
     width: 100%;
     height: 100%;
 }
+
 
 
 /*==========================
