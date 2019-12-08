@@ -1,0 +1,53 @@
+/* CUSTOM STYLESS */
+
+.myheader-title{
+  font-size: 3em;
+  font-weight: bold;
+}
+
+#mysmaller{
+font-size:1.8em;
+}
+
+.mydescription{
+font-family: 'Open Sans', sans-serif;
+}
+
+.opensans{
+font-family: 'Open Sans', sans-serif;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.mybutton{
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.mybutton:hover{
+  color:white;
+}
+
+.materialicon{
+  font-family:"Material Design Icons";
+}
+
+.none{
+  text-decoration: none;
+  color:inherit
+}
+
+.work:hover{
+  color:#31b164;
+}
+
+.banner{
+  width: 100%;
+
+}
+
+.calendly-btn{
+margin-top:.5em;
+}

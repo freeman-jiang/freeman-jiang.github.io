@@ -25,9 +25,18 @@
         });
     },
 
+    // CollapseHide
+    KerriApp.prototype.initCollapseHide = function() {
+        $(document).on('click', '.navbar-collapse.show', function(e) {
+            if ($(e.target).is('a')) {
+                $(this).collapse('hide');
+            }
+        });
+    },
+
     //Smooth
     KerriApp.prototype.initSmoothLink = function() {
-        $('.navbar-nav a').on('click', function(event) {
+        $('.navbar-nav a, .scroll_down a').on('click', function(event) {
             var $anchor = $(this);
             $('html, body').stop().animate({
                 scrollTop: $($anchor.attr('href')).offset().top - 0
@@ -140,6 +149,7 @@
     KerriApp.prototype.init = function() {
         this.initStickyMenu();
         this.initSmoothLink();
+        this.initCollapseHide();
         this.initScrollspy();
         this.initTextType();
         this.initWork();
