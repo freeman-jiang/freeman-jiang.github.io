@@ -1,27 +1,28 @@
 .text-custom,
 .custom-nav .navbar-nav li a:hover,
 .custom-nav .navbar-nav li a:active,
-.custom-nav .navbar-nav li.active a,
+.custom-nav .navbar-nav li a.active,
 .custom-nav.stickyadd .navbar-nav li a:hover,
 .custom-nav.stickyadd .navbar-nav li a:active,
-.custom-nav.stickyadd .navbar-nav li.active a,
-.about-social li a:hover {
-    color: #e65f78 !important;
+.custom-nav.stickyadd .navbar-nav li a.active,
+.about-social li a:hover,
+.footer-alt li a i:hover {
+  color: #e65f78 !important;
 }
 
 .btn-custom,
-.form-kerri .form-control:focus,
+.form-control:focus,
 .about-social li a:hover {
-    border-color: #e65f78;
+  border-color: #e65f78;
 }
 
 .btn-custom,
 .back_top,
 .services-boxes .services-title-border,
-.owl-theme .owl-controls .owl-page span,
+.owl-dots button.owl-dot span,
 .work_menu a.active,
 .work_menu a:hover {
-    background-color: #e65f78;
+  background-color: #e65f78;
 }
 
 .btn-custom:hover,
@@ -33,6 +34,6 @@
 .btn-custom:focus,
 .btn-custom:hover,
 .open > .dropdown-toggle.btn-custom {
-    background-color: #d8576f;
-    border-color: #d8576f;
+  background-color: #d8576f;
+  border-color: #d8576f;
 }
