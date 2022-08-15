@@ -1,4 +1,6 @@
-# Portfolio Website
+# Portfolio Website (outdated)
+
+Now replaced by https://github.com/freeman-jiang/portfolio
 
 ## Hosted App
 https://freemanjiang.com/
